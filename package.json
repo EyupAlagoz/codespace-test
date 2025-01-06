@@ -1,0 +1,13 @@
+{
+    "name": "codespace-template",
+    "version": "1.0.0",
+    "main": "aibs.js",
+    "dependencies": {
+      "express": "^4.17.1",
+      "axios": "^0.21.1"
+    },
+    "devDependencies": {
+      "@github/copilot": "^1.0.0"
+    }
+  }
+  

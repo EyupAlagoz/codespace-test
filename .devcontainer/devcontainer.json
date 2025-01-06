@@ -1,0 +1,19 @@
+{
+    "name": "Node.js Codespace",
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:latest",
+    "postCreateCommand": "npm install && npm install --save-dev @github/copilot",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "github.copilot"
+        ]
+      }
+    },
+    "forwardPorts": [3000],
+    "portsAttributes": {
+      "3000": {
+        "label": "Web App"
+      }
+    }
+  }
+  
